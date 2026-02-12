@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Hero from "./Hero";
+import Hero from "./hero";
 import AnalyticsSection from "./Analytics";
 import ComicsGrid from "./comics";
 import Footer from "./footer";

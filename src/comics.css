@@ -1,0 +1,54 @@
+/* Comics Section */
+.comics-section {
+  padding: 100px 80px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.comics-section h2 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 60px;
+}
+
+/* Grid Layout */
+.comics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+/* Card */
+.comic-card {
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.comic-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 25px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover Effect */
+.comic-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Overlay for "more..." */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,70 @@
+/* CTA SECTION */
+.cta-section {
+  padding: 120px 80px 60px;
+}
+
+.cta-container {
+  background: black;
+  color: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cta-left img {
+  width: 150px;
+  border-radius: 30px;
+}
+
+.cta-content {
+  text-align: center;
+}
+
+.cta-content h2 {
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.cta-btn {
+  background: #ded6c9;
+  color: black;
+  border: none;
+  padding: 20px 60px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo h2 {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.footer-links {
+  display: flex;
+  gap: 100px;
+}
+
+.footer-links p {
+  margin-bottom: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}

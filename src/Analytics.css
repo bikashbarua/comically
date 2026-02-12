@@ -1,0 +1,55 @@
+/* Analytics Section */
+.analytics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 80px;
+  gap: 80px;
+  max-width: 1200px;      /* IMPORTANT */
+  margin: 0 auto;         /* centers section */
+}
+
+/* Left Image Container */
+.analytics-left {
+  flex: 1;
+  max-width: 550px;       /* controls image area */
+}
+
+/* Image */
+.analytics-left img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 30px;
+}
+
+/* Right Text Content */
+.analytics-right {
+  flex: 1;
+  max-width: 500px;
+}
+
+.analytics-right h2 {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+.analytics-right p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 35px;
+  color: #333;
+}
+
+.publish-btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 18px 40px;
+  border-radius: 40px;
+  font-weight: 800;
+  cursor: pointer;
+}

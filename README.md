@@ -24,3 +24,27 @@ git clone https://github.com/YOUR_USERNAME/comically-landing.git
 cd comically
 npm install
 npm run dev
+
+# CONTRIBUTING GUIDE
+
+Thank you for contributing to COMICALLY!
+
+## Steps:
+
+1. Fork this repository
+2. Clone your fork
+3. Create branch
+
+git checkout -b feature-name
+
+4. Make changes
+5. Commit
+
+git commit -m "Added feature"
+
+6. Push
+
+git push origin feature-name
+
+7. Create Pull Request
+

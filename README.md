@@ -3,7 +3,7 @@
 A modern landing page built using React + Vite.
 
 ## Live Demo
-https://YOUR-VERCEL-LINK.vercel.app
+https://comically-peach.vercel.app/
 
 ## Tech Stack
 - React
